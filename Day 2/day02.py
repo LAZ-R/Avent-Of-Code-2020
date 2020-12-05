@@ -1,4 +1,4 @@
-with open(r"input.txt", "r") as f:
+with open(r"Day 2\input.txt", "r") as f:
     validPasswords=0
     fullList=(f.read().split())
     i=0
