@@ -1,4 +1,4 @@
-with open(r"input.txt", "r") as f:
+with open(r"input.txt","r") as f:
     expenseReport=[int(x) for x in f]
 
 def partie01():
