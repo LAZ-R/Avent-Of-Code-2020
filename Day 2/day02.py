@@ -10,8 +10,8 @@ with open(r"Day 2\input.txt", "r") as f:
         searchedLetter = b[0] # searched letter
         password = fullList[i+2] # actual password
         rankInStr=0
+        iteration=0
         while rankInStr<len(password):
-            iteration=0
             individualCharacter=password[rankInStr]
             if  individualCharacter == searchedLetter:
                 iteration+=1
