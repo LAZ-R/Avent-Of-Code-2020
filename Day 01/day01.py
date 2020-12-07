@@ -1,4 +1,4 @@
-with open(r"input.txt", "r") as f:
+with open(r"day 01\input.txt", "r") as f:
     expenseReport = [int(x) for x in f]
 
 

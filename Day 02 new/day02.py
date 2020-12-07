@@ -10,9 +10,9 @@ def passwordCheck01(min, max,  letter, pswrd):
 
 
 def day02part01():
-    with open("day 2\input.txt", "r") as f:
+    with open("Day 02 new\input.txt", "r") as f:
         lineTotal = len(f.read().split("\n"))
-    with open("day 2\input.txt", "r") as f:
+    with open("Day 02 new\input.txt", "r") as f:
         okPassword = 0
         lineNmbr = 0
         while lineNmbr < lineTotal:
@@ -41,9 +41,9 @@ def passwordCheck02(min, max,  letter, pswrd):
 
 
 def day02part02():
-    with open("day 2\input.txt", "r") as f:
+    with open("day 02 new\input.txt", "r") as f:
         lineTotal = len(f.read().split("\n"))
-    with open("day 2\input.txt", "r") as f:
+    with open("day 02 new\input.txt", "r") as f:
         okPassword = 0
         lineNmbr = 0
         while lineNmbr < lineTotal:

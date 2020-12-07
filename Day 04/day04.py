@@ -64,7 +64,7 @@ def fieldValueCheck(name, val):
 
 
 def day04():
-    with open("day 4\input.bat", "r") as f:
+    with open("day 04\input.bat", "r") as f:
         goodPasseport = 0
         passportList = f.read().split("\n\n")
         i = 0

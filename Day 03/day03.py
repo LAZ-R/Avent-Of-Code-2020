@@ -1,5 +1,5 @@
 def day03Slope(rightSlope, downSlope):
-    with open("day 3\input.txt", "r") as f:
+    with open("day 03\input.txt", "r") as f:
         listOne = f.read().split()
         i = 0
         j = 0

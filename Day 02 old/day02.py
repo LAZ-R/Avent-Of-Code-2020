@@ -1,5 +1,5 @@
 def day02part01():
-    with open(r"Day 2\input.txt", "r") as f:
+    with open(r"Day 02 old\input.txt", "r") as f:
         validPasswords = 0
         fullList = (f.read().split())
         i = 0
@@ -26,7 +26,7 @@ def day02part01():
 
 
 def day02part02():
-    with open(r"Day 2\input.txt", "r") as f:
+    with open(r"Day 02 old\input.txt", "r") as f:
         validPasswords = 0
         fullList = (f.read().split())
         i = 0
