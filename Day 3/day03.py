@@ -15,7 +15,7 @@ def day03Slope(rightSlope, downSlope):
                 treeCount+=1
             i+=downSlope
             j+=rightSlope
-        print("SlopeR1D1", treeCount)
+        print("Slope  R", rightSlope, "D", downSlope, "=", treeCount)
     return treeCount
 
 def ansPartTwo():
